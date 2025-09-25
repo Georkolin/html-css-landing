@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+.header {
+  height: 140px;
+  border-top-right-radius: 1px;
+  border-bottom-left-radius: 90px;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+
+  padding-left: 60px;
+  box-shadow: 0px 4px 20px 0px #00000047;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 9999;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+.logo {
+  flex: 2;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Italic;
+  font-size: 36px;
+  line-height: 100%;
+}
+.logo2 {
+  flex: 0.5;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+
+  cursor: pointer;
+}
+.hero-image {
+  display: flex;
+  flex: 0.5;
+  justify-content: center;
+
+  cursor: pointer;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 27%;
+  margin-left: 100px;
+  margin-top: 5em;
+}
+span {
+  align-self: flex-end;
+  width: 60%;
+}
+h1 {
+  display: flex;
+  font-size: 150px;
+  flex-direction: column;
+}
+.text1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 100%;
+
+  top: 251px;
+  left: 126px;
+  opacity: 1;
+}
+.text2 {
+  font-family: Poppins;
+  font-weight: 275;
+  font-size: 96px;
+  line-height: 100%;
+
+  top: 337px;
+  left: 292px;
+
+  opacity: 1;
+  color: rgba(193, 6, 6, 1);
+}
+#text3 {
+  display: flex;
+  width: 90%;
+  height: 200px;
+
+  opacity: 1;
+  font-family: Poppins;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 16px;
+  letter-spacing: 0%;
+  text-align: justify;
+  align-self: end;
+  display: flex;
+  margin-top: 20px;
+}
+.circule {
+  position: absolute;
+  top: 200px;
+  left: 1030px;
+}
+.circule2 {
+  position: absolute;
+  top: 582px;
+  left: 751px;
+}
+.circule3 {
+  position: absolute;
+  top: 556px;
+  left: 1250px;
+}
+.house {
+  position: absolute;
+  opacity: 1;
+  top: 570px;
+  left: 855px;
+}
+button {
+  align-self: center;
+  background: rgba(255, 66, 66, 1);
+  width: 200px;
+  height: 50px;
+  opacity: 1;
+  top: 739px;
+  left: 216px;
+  border-radius: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-top: 56px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.cun {
+  position: absolute;
+  background: rgb(255, 255, 255);
+  width: 324;
+  height: 312;
+  opacity: 1;
+  top: 512px;
+  left: 0px;
+}
+.line {
+  position: absolute;
+  width: 1209;
+  height: 155.5;
+  opacity: 1;
+  top: 645px;
+  left: 14px;
+  border-width: 4px;
+}
